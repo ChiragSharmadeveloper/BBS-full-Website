@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+}
+.foto{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px;
+}
+.para{
+    display: inline;
+    width: 350px;
+    text-align: right;
+    padding: 10px;
+    /* text-shadow: #333; */
+}
+
+.chirag .img1{
+    height: 18rem;
+    width: 15rem;
+    padding-left: 30px;
+     border-radius: 0px 60px 0px 60px; 
+    box-shadow: 5px 10px black;
+}
+
+.such img{
+    height: 18rem;
+    width: 15rem;
+   padding-left: 450px;
+    border-radius: 60px 60px 60px 60px; 
+   box-shadow: 5px 10px 5px black;
+}
+
+#lor{
+    width: 300px;
+    height: 50px; 
+    display: inline-block;
+    /* margin-bottom:120px ; */
+    padding-left: 20px;
+}
+#no{
+    display:inline;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+}
+.logo {
+    color: #fff;
+    font-size: 2.0rem;
+    text-align: right;
+    padding-right: 115px;
+}
+#yes{
+    font-size: 16px;
+    width: 450px;
+    height: 35px;
+}
+.nav-links {
+    list-style: none;
+     display: flex; 
+    text-align: center;
+}
+.nav-links li {
+    margin: 0 1rem;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+    .nav-links.active {
+        display: flex;
+    }
+
+  
+    
